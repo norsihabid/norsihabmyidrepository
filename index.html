@@ -12,8 +12,9 @@ img {
 }
 iframe {
     margin-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px
+    max-width: 100%; /* Membatasi lebar agar tidak melebihi layar */
+    overflow-x: auto; /* Tambahkan scroll horizontal jika melebihi batas */
+    white-space: nowrap; /* Mencegah konten terpotong */
 }
 #p-1 {
     margin-left: 10px;
